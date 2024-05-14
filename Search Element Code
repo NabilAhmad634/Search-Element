@@ -1,0 +1,12 @@
+//Search-Element Code by Using JavaScript
+let data =[3,45,67,23,56,88,12,34];
+ let item=88;
+ let index=undefined;
+ for(i=0; i<data.length-1; i++){
+     if(data[i]===item){
+         index=i;
+     }
+ }
+ console.log(index);
+Output is:
+            5
